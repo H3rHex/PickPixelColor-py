@@ -1,42 +1,94 @@
-#ESPAÑOL/SPANISH
+## **ESPAÑOL/SPANISH**
 
-Cómo ejecutar la aplicación
-Para iniciar la aplicación, abre una terminal y ejecuta el siguiente comando:
+# Color Picker
 
-python app.py
-o, si usas python3:
+**Color Picker** es una aplicación que permite seleccionar el color de un píxel en la pantalla y copiar su valor hexadecimal al portapapeles.
 
-python3 app.py
-Cómo instalar las dependencias
-Abre una terminal y ejecuta estos comandos:
+## Requisitos
 
+-       Python 3.6 o superior
+-       Paquetes de Python: `tkinter`, `pyperclip`, `pillow`, `pynput`
 
-pip install tk Pillow mss pynput
+## Instalación
 
-o, si usas pip3:
+1. **Clona el repositorio:**
 
+   ```bash
+   git clone https://github.com/hereHK/PickPixelColor-py.git
+   cd <DIRECTORIO_DEL_REPOSITORIO>
 
-pip3 install tk Pillow mss pynput
+2. **Crea un entorno virtual (opcional pero recomendado):**
 
+ -      python -m venv venv
+ -      source venv/bin/activate  # En Windows usa: venv\Scripts\activate
 
-#ENGLISH/INGLES
-
-How to run the application
-To start the application, open a terminal and run the following command:
-
-python app.py
-or, if you use python3:
-
-python3 app.py
-How to install the dependencies
-Open a terminal and run these commands:
+3. **Instala las dependencias:**
+ -      pip install -r requirements.txt
 
 
-pip install tk pillow mss pynput
+## Uso
+1. **Ejecuta la aplicación:**
+ -      Ejecuta el comando: **python app.py**
 
-or, if you use pip3:
+
+## Solución de Problemas
+
+**Problemas con las Dependencias:**
+-       Si tienes problemas al instalar las dependencias, asegúrate de que todas están correctamente listadas en requirements.txt y de que estás utilizando un entorno virtual adecuado.
+
+## Contribuciones
+
+-       Las contribuciones son bienvenidas. Si deseas mejorar la aplicación, por favor, abre un pull request o un issue en el repositorio.
 
 
-pip3 install tk Pillow mss pynput
+## **ENGLISH/INGLES**
+
+## Color Picker
+
+**Color Picker** is an application that allows you to select the color of a pixel on the screen and copy its hexadecimal value to the clipboard.
+
+## Requirements
+
+- Python 3.6 or higher
+- Python packages: `tkinter`, `pyperclip`, `pillow`, `pynput`.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/hereHK/PickPixelColor-py.git
+   cd <REPOSITORY_DIRECTORY>
+
+2. **Create a virtual environment (optional but recommended):**
+
+ - python -m venv venv
+ - source venv/bin/activate # On Windows use: venv/scripts/activate
+
+3. **Install the dependencies:**
+ - pip install -r requirements.txt
+
+
+## Usage
+1. **Run the application:**
+ - Run the command: **python app.py**
+
+
+## Troubleshooting
+
+**Problems with the Dependencies:** **# Troubleshooting
+- If you have problems installing dependencies, make sure they are all correctly listed in requirements.txt and that you are using a proper virtual environment.
+
+## Contributions
+
+- Contributions are welcome. If you want to improve the application, please open a pull request or issue in the repository.
+
+
+
+
+
+
+
+
 
 
