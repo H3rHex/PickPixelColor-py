@@ -32,7 +32,9 @@
 1. **Ejecuta la aplicación:**
  -  Ejecuta el comando: 
  -      python app.py
-
+2. **¿Como capturar un color?**
+ -  Cuando quieras capturar un color presiona F8
+    asegurate de tener la ventana del programa abierta
 
 ## Solución de Problemas
 
@@ -75,6 +77,10 @@
 1. **Run the application:**
  - Run the command:
  -      python app.py
+   
+2. **How to capture a color?
+ - When you want to capture a color press F8
+    make sure you have the program window displayed
 
 
 ## Troubleshooting
