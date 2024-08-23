@@ -41,6 +41,9 @@
 **Problemas con las Dependencias:**
 -   Si tienes problemas al instalar las dependencias, asegúrate de que todas están correctamente listadas en requirements.txt y de que estás utilizando un entorno virtual adecuado.
 
+**X get_image failed: error 8**
+- Es posible que hayas iniciado el sistema en Wayland, simplemente cierra sesion y inicia con Xorg y el problema deberia de estar resuelto.
+
 ## Contribuciones
 
 -   Las contribuciones son bienvenidas. Si deseas mejorar la aplicación, por favor, abre un pull request o un issue en el repositorio.
